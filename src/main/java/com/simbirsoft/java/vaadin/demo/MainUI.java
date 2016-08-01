@@ -27,6 +27,7 @@ public class MainUI extends UI {
         String[] pages = {FullHeightView.VIEW_NAME, GridLayoutView.VIEW_NAME, FormLayoutView.VIEW_NAME};
 
         VerticalLayout contentLayout = new VerticalLayout();
+        contentLayout.setMargin(true);
         contentLayout.setSizeFull();
 
         // Create a navigator to control the views

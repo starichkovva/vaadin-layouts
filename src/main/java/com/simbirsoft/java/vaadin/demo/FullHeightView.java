@@ -20,7 +20,6 @@ public class FullHeightView extends VerticalLayout implements View {
         button.addClickListener(e -> addComponent(new Label("Thanks " + name.getValue() + ", it works!")));
 
         addComponents(name, button);
-        setMargin(true);
         setSpacing(true);
 
         Grid grid = new Grid("Sample grid");

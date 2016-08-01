@@ -23,6 +23,7 @@ public class GridLayoutView extends GridLayout implements View {
                 addComponent(new Label("Label " + i + "" + j));
             }
         }
+        setSpacing(true);
     }
 
     @Override
